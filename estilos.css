@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,26,83,1) 31%, rgba(0,212,255,1) 100%);
+    align-self: flex-start;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+   
+}
+h1{
+    margin-top: 6px;
+}
+h2{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.container{
+    
+    width: 400px;
+    padding: 100px;
+    height: 400px;
+    background-color: rgb(161, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.phone{
+    width: 200px;
+    height: 400px;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid; /* Adicione esta linha */
+    background-color: rgb(80, 79, 79);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.soundexit{
+    margin-top: 10px;
+    width: 66px;
+    height:6px;
+    border-radius: 20px;
+    background-color: black;
+    align-self: flex-start;
+    
+    position: absolute; /* Usa posicionamento absoluto */
+}
+.screen{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 340px;
+    background-color: black;
+    transition: 0.5s ease-in
+}
+.digital{
+    align-self: flex-end;
+    position: absolute;
+}
+button{
+    width: 30px;
+    height: 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgba(0, 0, 0, 0.2); /* Altere a cor para escurecer um pouco */
+    transform: scale(0.98); /* Adiciona um pequeno efeito de "pressionado" */
+}
+.TextArea{
+    align-self: end;
+    margin-bottom: 0;
+    
+}
